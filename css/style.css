@@ -78,7 +78,10 @@ img.main {
 
 img.logo {
     height: 400px;
-    padding-left: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 footer{
@@ -97,4 +100,8 @@ ul.potential {
 
 ul.features {
     font-size: 175%;
+}
+
+main.x {
+    margin: 1rem 11rem 3rem 11rem;
 }
