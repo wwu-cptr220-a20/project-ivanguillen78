@@ -59,11 +59,13 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    transition-duration: 1s;
 }
 
 a:hover, a:active, a:focus {
     color: rgba(255, 255, 255, 0.432);
     border-bottom: .6rem solid #f4e2d8;
+    transition-timing-function: linear;
 }
 
 a.p {
