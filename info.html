@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,11 @@
     <title>CPTR 220 Project - Ivan Guillen</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Orbitron:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -28,67 +31,95 @@
             <h2>
                 Potential Applications
             </h2>
-            <ul class="potential"> 
-                <li>
-                    <h3>Sharing Music Tastes and Exploring New Ones</h3>
-                    <ul>
-                        <li>
-                            The problem often lies in the fact that you are searching on your own. Imagine a web application that provides the 
-                            opportunity to discover new music by interacting with other users. 
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Playlist Creator/Suggestion</h3>
-                    <ul>
-                        <li>
-                            Something similar to <a href="https://www.chosic.com/playlist-generator/">this</a>? I'd be interested to see how this application
-                            creates playlists based on the song you input. I tested it a few times, and it was, for the most part, accurate in creating appropriate 
-                            playlists. 
-                        </li>
-                    </ul> 
-                </li>
-            </ul>
+            <div class="cards">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="cardTitle">Sharing Music Tastes and Exploring New Ones</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="cardContent">
+                                The problem often lies in the fact that you are searching on your own.
+                                Imagine a web application that provides the opportunity to discover
+                                new music by interacting with other users.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="cardTitle">Playlist Creator/Suggestion</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="cardContent">
+                                Something similar to <a class="p"
+                                    href="https://www.chosic.com/playlist-generator/">this</a>?
+                                I'd be interested to see how this application creates playlists based on the song you
+                                input.
+                                I tested it a few times, and it was, for the most part, accurate in creating appropriate
+                                playlists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <h2>
                 Ideally, this application will have the capacity to:
             </h2>
-            <ul class="features">
-                <li>
-                    <h3>Store user data.</h3>
-                    <ul>
-                        <li>
-                            This includes being able to log in and view your account, set and change music preferences, and link other existing accounts for different
-                            applications such as Spotify (import/export playlists?), Instagram, and so on. 
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Interaction between users.</h3>
-                    <ul>
-                        <li>
-                            This is the basis for the entire application. Through interaction, users will be able to come across different music. 
-                        </li>
-                    </ul> 
-                </li>
-                <li>
-                    <h3>Listen to music (?)</h3>
-                    <ul>
-                        <li>
-                            Ideally, users should be able to listen to music while using the application. 
-                        </li>
-                    </ul> 
-                </li>
-            </ul>
+            <div class="cards2">
+                <div class="flip-card2">
+                    <div class="flip-card-inner2">
+                        <div class="flip-card-front2">
+                            <p class="cardTitle2">Store user data</p>
+                        </div>
+                        <div class="flip-card-back2">
+                            <p class="cardContent2">
+                                This includes being able to log in and view your account, set and change music preferences, 
+                                and link other existing accounts for different applications such as Spotify 
+                                (import/export playlists?), Instagram, and so on. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card2">
+                    <div class="flip-card-inner2">
+                        <div class="flip-card-front2">
+                            <p class="cardTitle2">Support interaction between users</p>
+                        </div>
+                        <div class="flip-card-back2">
+                            <p class="cardContent2">
+                                This is the basis for the entire application. 
+                                Through interaction, users will be able to come across different music. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card2">
+                    <div class="flip-card-inner2">
+                        <div class="flip-card-front2">
+                            <p class="cardTitle2">Listen to music (?)</p>
+                        </div>
+                        <div class="flip-card-back2">
+                            <p class="cardContent2">
+                                Ideally, users should be able to listen to music while using the application. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
+        
     </main>
 
     <footer>
         <div class="contact">
             <p>
-                Questions? <a href="mailto:ivanjguillen78@gmail.com">Email</a>
-                or <a href="tel:951-290-1050">call</a> me!
+                Questions? <a class="p" href="mailto:ivanjguillen78@gmail.com">Email</a>
+                or <a class="p" href="tel:951-290-1050">call</a> me!
             </p>
         </div>
         <div class="copyright">
@@ -97,4 +128,5 @@
     </footer>
 
 </body>
+
 </html>
