@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 0%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 400%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    margin-left: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    font-size: 350%;
+}
+
+p {
+    margin: 1rem 11rem 3rem 11rem;
+    font-size: 150%;
+}
+
+body {
+    background: url('../img/musicpic.jpg') no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: .75rem;
+    opacity: .75;
+    text-align: right;
+    padding-right: 1rem;
+    
+}
+
+li.myNav {
+    display: inline;
+    margin-right: 1rem;
+}
+
+ul.navbar {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a:hover, a:active, a:focus {
+    color: rgba(255, 255, 255, 0.432);
+    border-bottom: .6rem solid #f4e2d8;
+}
+
+a.p {
+    color: rgb(238, 203, 45);
+    border-bottom: none;
+}
+
+img.main {
+    height: 2.5rem;
+    margin-right: 10px;
+}
+
+img.logo {
+    height: 400px;
+    padding-left: 330px;
+}
+
+footer{
+    font-size: 50%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.contactme {
+    text-align: center;
+}
+
+ul.potential {
+    font-size: 175%;
+}
+
+ul.features {
+    font-size: 175%;
+}
