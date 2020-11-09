@@ -59,20 +59,12 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
-<<<<<<< HEAD
-    transition-duration: 1s;
-=======
     transition-duration: .3s;
->>>>>>> master
 }
 
 a:hover, a:active, a:focus {
     color: rgba(255, 255, 255, 0.432);
-<<<<<<< HEAD
-    border-bottom: .6rem solid #f4e2d8;
-=======
     border-bottom: .4rem solid #f4e2d8;
->>>>>>> master
     transition-timing-function: linear;
 }
 
@@ -97,11 +89,7 @@ img.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-
-=======
     
->>>>>>> master
 }
 
 footer{
@@ -142,7 +130,7 @@ main.x {
     width: 500px;
     height: 500px;
     /* text-align: center; */
-    transition: transform 0.6s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -203,7 +191,7 @@ p.cardContent {
     width: 350px;
     height: 350px;
     /* text-align: center; */
-    transition: transform 0.6s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -245,4 +233,57 @@ p.cardContent2 {
     padding: 40px 20px 100px 20px;
     margin-bottom: 80px;
     font-size: 140%;
+}
+
+.d-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: black;
+}
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+.carousel {
+    margin-top: 5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.d-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+  
+img:hover {
+    border: .2rem solid #aca6a3;
+}
+  
+.carousel-caption {
+    font-size: 90%;
+    margin-bottom: 0px;
+    padding: 1.6rem .5rem 0 .5rem;
+    height: 160px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    opacity: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form-inline {
+    justify-content: center;
+    margin-top: 50px;
 }
