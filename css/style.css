@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 0%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 400%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    margin-left: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    font-size: 350%;
+}
+
+p.mainP {
+    margin: 1rem 11rem 3rem 11rem;
+    font-size: 150%;
+}
+
+body {
+    background: url('../img/musicpic.jpg') no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: .75rem;
+    opacity: .75;
+    text-align: right;
+    padding-right: 1rem;
+    
+}
+
+li.myNav {
+    display: inline;
+    margin-right: 1rem;
+}
+
+ul.navbar {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+a:hover, a:active, a:focus {
+    color: rgba(255, 255, 255, 0.432);
+    border-bottom: .4rem solid #f4e2d8;
+    transition-timing-function: linear;
+}
+
+a.p {
+    color: rgb(238, 203, 45);
+    border-bottom: none;
+    transition-duration: .4s;
+}
+
+a.p:hover, a.p:active, a.p:focus {
+    color: yellow;
+    transition-timing-function: linear;
+}
+
+img.main {
+    height: 2.5rem;
+    margin-right: 10px;
+}
+
+img.logo {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer{
+    font-size: 50%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.contactme {
+    text-align: center;
+}
+
+ul.potential {
+    font-size: 175%;
+}
+
+ul.features {
+    font-size: 175%;
+}
+
+main.x {
+    margin: 1rem 11rem 3rem 11rem;
+}
+
+.cards {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.flip-card {
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    /* text-align: center; */
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    backface-visibility: hidden;
+    opacity: .75;
+    border-radius: 10px;
+}
+  
+.flip-card-front {
+    background-color: black;
+}
+  
+.flip-card-front {
+    color: white;
+}
+  
+.flip-card-back {
+    background-color: rgba(58, 54, 54, 0.596); 
+    color: white;
+    transform: rotateY(180deg);
+}
+
+p.cardTitle {
+    padding: 100px 20px 100px 20px;
+    font-size: 300%;
+    text-align: center;
+}
+
+p.cardContent {
+    padding: 60px 20px 100px 20px;
+    margin-bottom: 80px;
+    font-size: 200%;
+
+}
+
+.cards2 {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.flip-card2 {
+    width: 350px;
+    height: 350px;
+    perspective: 700px;
+}
+  
+.flip-card-inner2 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    /* text-align: center; */
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    backface-visibility: hidden;
+    opacity: .75;
+    border-radius: 10px;
+}
+  
+.flip-card-front2 {
+    background-color: black;
+}
+  
+.flip-card-front2 {
+    color: white;
+}
+  
+.flip-card-back2 {
+    background-color: rgba(58, 54, 54, 0.596); 
+    color: white;
+    transform: rotateY(180deg);
+}
+
+p.cardTitle2 {
+    padding: 70px 20px 100px 20px;
+    font-size: 200%;
+    text-align: center;
+}
+
+p.cardContent2 {
+    padding: 40px 20px 100px 20px;
+    margin-bottom: 80px;
+    font-size: 140%;
+}
+
+.d-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: black;
+}
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+.carousel {
+    margin-top: 5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.d-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+  
+img:hover {
+    border: .2rem solid #aca6a3;
+}
+  
+.carousel-caption {
+    font-size: 90%;
+    margin-bottom: 0px;
+    padding: 1.6rem .5rem 0 .5rem;
+    height: 160px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    opacity: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form-inline {
+    justify-content: center;
+    margin-top: 50px;
+}
